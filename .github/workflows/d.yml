@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: dlang-community/setup-dlang@v2
+    - uses: dlang-community/setup-dlang@v1
       with:
         compiler: ldc-latest
 
