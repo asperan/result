@@ -1,0 +1,20 @@
+{
+	"authors": [
+		"Alex \"asperan\" Speranza"
+	],
+	"copyright": "Copyright © 2021, Alex \"asperan\" Speranza",
+	"description": "A minimal D library to wrap return values or error of functions.",
+	"license": "MIT",
+	"name": "result",
+	"targetType": "library",
+  "buildTypes": {
+    "docs": {
+      "dflags": [ "-c", "-Dddocs" ],
+      "buildOptions": [ "syntaxOnly" ]
+    },
+    "unittest": {
+      "sourcePaths": [ "test/" ],
+      "buildOptions": [ "unittests", "debugInfo", "debugMode" ],
+    }
+  }
+}
